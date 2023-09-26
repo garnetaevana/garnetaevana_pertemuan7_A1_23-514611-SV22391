@@ -1,0 +1,11 @@
+#soal modul
+student = {
+"nama" : "faqih",
+"umur" : 26,
+"tinggi" : 177.6
+}
+print(student)
+student["hobi"] = "coding"
+
+#kode pembenaran untuk menambah item
+print("hobi:", student.get("hobi"))
